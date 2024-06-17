@@ -25,6 +25,8 @@ int main() {
             break;
         case 7 :
             cout<<"Sunday";
-            break;        
+            break;  
+        default :
+            cout<<"Invalid number"; 
     }
 }
