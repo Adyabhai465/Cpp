@@ -11,6 +11,7 @@ int main() {
             break;
         }
     } 
+    if(n==1) cout<<"1 is neither prime nor composite.";
     if (flag == true) cout<<n<<" is a prime number.";
     else cout<<n<<" is a composite number.";
 }
